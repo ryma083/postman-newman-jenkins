@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "API-test-production": "newman run tests/JsonPlaceholder_collection.json -r=cli,html"
+    "API-test-production": "newman run tests/JsonPlaceholder_collection.json -r=cli,junit"
   },
   "author": "ryma ghezali",
   "dependencies": {
